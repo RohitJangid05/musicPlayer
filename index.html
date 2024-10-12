@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="shortcut icon" href="./images/favicon.webp" type="image/x-icon">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Audio Aura</title>
+</head>
+<body>
+  <div class="main">
+    <h1>Audio <span style="color: rgb(255, 204, 0);">Aura</span></h1>
+    <hr>
+    <div>
+      <img id="audioImg" src="./images/doraemon.webp" alt="" />
+    </div>
+    <div class="musicBtn">
+      <audio id="audioMusic" src="./audio/Doraemon.mp3" controls></audio>
+    </div>
+    <div class="btns">
+      <button onclick="pre()" id="previous"><i class="fa-solid fa-backward"></i></button>
+      <button onclick="toggle()" id="toggle"><i id="icon" class="fa-solid fa-play"></i></button>
+      <button onclick="next()" id="next"><i class="fa-solid fa-forward"></i></i></button>
+    </div>
+  </div>
+</body>
+<script src="script.js"></script>
+
+</html>
